@@ -33,7 +33,15 @@ export default () => {
   return (
     <Canvas style={styles.canvas}>
       <Fill color={'#fff'} />
-      <Path path={path} color="coral" start={0} end={end} />
+      <Path
+        style="stroke"
+        strokeJoin="round"
+        strokeWidth={1}
+        path={path}
+        color="coral"
+        start={0}
+        end={end}
+      />
     </Canvas>
   );
 };
