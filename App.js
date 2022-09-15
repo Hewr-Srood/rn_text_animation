@@ -38,7 +38,7 @@ export default () => {
         strokeJoin="round"
         strokeWidth={1}
         path={path}
-        color="coral"
+        color="#3C91FC"
         start={0}
         end={end}
       />
